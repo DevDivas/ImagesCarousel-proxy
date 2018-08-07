@@ -89,5 +89,5 @@ app.get('/rooms/:room_id/reviews', (req, res) => {
 });
 
 // Set port to listen to
-const port = 4000;
+const port = 5000;
 app.listen(port, () => console.log(`Listening to port ${port}...`));
